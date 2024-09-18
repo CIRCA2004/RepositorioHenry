@@ -1,14 +1,33 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000000;
-    color: #eb0000;
-    margin: 20px;
-  }
-  /* Etiquetado por medio de ID */
-  #Encabezado{
-    background-color: aqua;
-  }
-  /* Etiquetado por medio de CLASS */
-.list-item{
-    font-size: 50px;
+body{
+  width: 1600px;
+  border: 1px solid black;
+}
+#logo-T{
+  width: 41px;
+  height: 41px;
+  background-color: #458ff6;
+  font-family: Muli;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 12.63px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: #ffff;
+  display: inline-block;
+  border-radius: 50px;
+}
+header{
+  background-color: aqua;
+  height: 41px;
+  margin-top: 56px;
+  margin-left: 191px;
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  width: 545px;
+  height: 23px;
+  gap: 0px;
+  opacity: 0px;
 }
